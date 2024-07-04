@@ -1,0 +1,951 @@
+
+@media   (orientation:portrait ) {
+    /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */   
+    header{
+        height: 50vh;
+        max-height: 50vh;
+    }
+
+    .animate {
+        opacity: 0;
+        transform: translateY(0px);
+        transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    }
+
+    .animate.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .head-text{
+        width: 95vw;
+    }
+
+    .services{
+        margin: 80px auto;
+    }
+
+    .spétial-txt{
+        width: 90vw;
+    }
+
+    #zone-spétial{
+        width: 85vw;
+    }
+
+    .spétial-txt{
+        width: 90vw;
+        max-width: 90vw;
+        margin: 40px auto;
+    }
+
+    .spétial-img{
+        width: 90vw;
+        max-width: 90vw;
+        min-width: 90vw;
+    }
+
+    .services-txt{
+        width: 90vw;
+        max-width:90vw;
+        min-width: 90vw;
+    }
+
+    .services-img{
+        width: 90vw;
+        height: 300px;
+        max-width:90vw;
+        min-width: 90vw;
+    }
+
+    .services-itms{
+        width: 90vw;
+        max-width:90vw;
+        min-width: 90vw;
+        margin: 40px auto;
+    }
+
+    nav .close-btn {
+        right: 95px;
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width:1440px) {
+   /*!
+    =======================================================================
+        *A PROPOS
+    =======================================================================
+    */
+    #zone-spétial{
+        width: 90vw;
+    }
+    .spétial-txt{
+        width: 50%;
+    }
+    .spétial-txt h1{
+        font-size: 3.2vw;
+    }
+    .spétial-txt p{
+        font-size: 1.2vw;
+    }
+    .spétial-img img{
+        width: 80%;
+        height:100%;
+    }
+    /*!
+    =======================================================================
+        *Accompagnement
+    =======================================================================
+    */
+    .acc-itms{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+      }
+    /*!
+    =======================================================================
+        *Footer
+    =======================================================================
+    */
+    footer{
+        padding: 20px auto;
+        height: auto;
+      }
+
+      .footpart1{
+        height: auto;
+        margin: 10px auto;
+        grid-template-rows:1fr 2fr 1fr; 
+      }
+
+      .page-section{
+        grid-area: 1/3/2/3;
+        border: none;
+      }
+
+      .linkpage{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+
+      .linkpage a{
+        color: white;
+        width: 100%;
+      }
+
+      .Apropos-section{
+        grid-area: 1/1/2/3;
+      }
+
+      .Apropos-section a{
+        padding-top: 10px;
+      }
+
+      .Horraire-section{
+        grid-area: 1/4/2/4;
+      }
+
+      .Contact-section{
+        grid-area: 1/5/2/5;
+      }
+
+      .Legal-section{
+        grid-area: 3/1/4/6;
+      }
+
+      .map-section{
+        grid-area: 2/1/3/6;
+        height: 400px;
+      }
+
+}
+
+
+
+@media screen and (max-width:1240px) {
+
+    /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */
+    .txt-zone h1{
+        font-size: 2.3rem;
+     }
+
+    .txt-zone p a{
+        font-size: 1.6rem;
+     }
+
+    .spétial-img2 img , .spétial-img img{
+        width: 40vw;
+        margin: auto;
+    }
+
+    #secondp{
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .services-itms{
+        width: 90vw;
+        grid-template-columns: repeat(3 ,1fr);
+        margin-top: 0;  
+    }
+
+        /*!
+    =======================================================================
+        *Footer
+    =======================================================================
+    */
+    .footpart1{
+        grid-template-columns: repeat(4 ,1fr);
+        grid-template-rows: repeat(4 ,1fr);
+      }
+      .page-section{
+        grid-area: 2/2/4/2;
+        display: block;
+      }
+      .linkpage{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+      }
+      .linkpage a{
+        color: white;
+        width: 100%;
+      }
+      .Apropos-section{
+        grid-area: 1/1/2/3;
+      }
+      .Horraire-section{
+        grid-area: 1/3/2/6;
+      }
+      .Contact-section{
+        grid-area: 2/1/4/2;
+      }
+      .Legal-section{
+        grid-area: 4/1/4/6;
+      }
+      .map-section{
+        grid-area: 1/3/4/6;
+      }
+}
+         
+
+
+@media screen and (max-width:1100px) {
+    /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */    
+    header{
+        height:100vh;
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        height:100vh;
+        max-width: 100%;  
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        width: 100vw;
+        max-width: 100%;  
+        height: 60px;
+    }
+    .ma-nav{
+        width: 100vw;
+    }
+    .navlinks {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #d4adfc;
+        transition: 0.3s ease;
+        align-items: center;
+        top: -20px;
+        bottom: 0;
+        width: 100vw;
+        max-width: 100%;
+        height: 120vh;
+        max-height: 100vh;
+        min-height: 100vh;
+        gap: 40px;
+        right: -2000px;
+        margin: 0;
+        padding: 0;
+        z-index: 9;
+    }
+
+    .navlinks a:hover{
+        color: white;
+        border-bottom: 1px solid transparent;
+    }
+
+    #logo img{
+        height: 120px;
+        width: 120px;
+    }
+
+    .navlinks a{
+        font-size: 20px;
+        color: black;
+    }
+
+    .navbar h1 a{
+        padding-left: 95px;
+    }
+
+    nav .hamburger-btn {
+        display: block;
+        top: 40px;
+        padding-right: 95px;
+    }
+
+    .color{
+        color: #05051d;  
+    }
+
+    .logoimg {
+        left: 50px;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+
+    .navlinks  li a{
+        font-size: 24px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid transparent;
+        transition: all 0.2s ease-in-out;
+        text-align: left;
+    }
+
+    .navlinks  li a:hover{
+        font-size: 24px;
+        border-bottom: 1px solid white;
+    }
+      
+    .navlinks  li a:hover .scrolled{
+        font-size: 24px;
+        border-bottom: 1px solid transparent;
+    }
+
+    nav .close-btn {
+        right: 95px;
+        left: 0px;
+        top: 15px;
+        display: block;
+        position: absolute;
+        text-align: right;
+    }
+      .navbar h1 a{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    p , .services-txt p, .spétial-txt p{
+        text-align: left;
+    }
+
+    /*!
+    =======================================================================
+        *A PROPOS
+    =======================================================================
+    */
+    .a-propos{
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+    }
+    .a-propos::after {
+        z-index: -1;
+
+      }
+    #zone-spétial{
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
+        min-width: none;
+        flex-wrap: wrap;
+        padding: 20px;
+        overflow: hidden;
+        margin: 50px 0;
+        z-index: 0;
+    }
+    .spétial-img2 img , .spétial-img img{
+        width: 80vw;
+        height:250px;
+        margin: auto;
+        object-position: top;
+    }
+    .spétial-txt{
+        width: 90vw;
+    }
+    .spétial-txt h1{
+        font-size: 40px;
+    }
+    .spétial-txt p{
+        font-size: 18px;
+    }
+    .spétial-img{
+        width: 100%;
+    }
+    .spétial-img img{
+        width: 100%;
+        min-height: 300px;
+        min-width: 200px;
+    }
+    .show-more , .show-more2 {
+        display: inline;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    .more-text ,.more-text2 {
+        display: none;
+      }
+    /*!
+    =======================================================================
+            *Services
+    =======================================================================
+    */
+    .services{
+        width: 100vw;
+        max-width: 100%;
+        height: auto;
+        min-height: auto;
+        max-height: auto;
+    }
+
+    #zone-spétial2{
+        flex-wrap: wrap;
+        height: auto;
+        min-height: none;
+        max-height: none;
+      }
+
+    #zone-services{
+        width: 90%;
+        max-width: 90%;
+        min-width: 90%;
+        min-width: none;
+        flex-wrap: wrap;
+        padding: 20px;
+        overflow: hidden;
+        margin: 50px 0;
+        z-index: 0;
+    }
+
+    #zone-services{        
+        width: 90vw;
+    }
+
+    .services-txt{
+        width: 100%;
+    }
+
+    .services-txt h1{
+        font-size: 40px;
+    }
+
+    .services-txt p{
+        font-size: 18px;
+    }
+    .services-txt p span{
+        font-size: 18px; 
+    }
+
+    .trait{
+        color: #d4adfc;
+    }
+    .services-itms{
+        height: auto;
+        grid-template-columns: repeat(3 ,1fr);  
+        grid-gap: 20px;
+      }
+    .service1 ,.service2 ,.service3{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+    }
+    .services-itms i{
+        font-size: 40px;
+    }
+    .services-img{
+       display: none;
+    }
+    /*!
+    =======================================================================
+        *Footer
+    =======================================================================
+    */
+    .footpart1{
+        grid-template-columns: repeat(2 ,1fr);
+        grid-template-rows: repeat(4 ,1fr);
+        height: auto;
+        max-width: 90vw;
+        margin: 0 auto;
+      }
+      .Apropos-section{
+        grid-area: 1/1/0/2;
+        margin-top: 20px;
+      }
+      .page-section{
+        grid-area: 2/1/2/3;
+    }
+    .social-icone{
+        margin-top: 20px;
+    }
+
+      .legallink{
+        display: flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 50%;
+    }
+
+    .linkpage a{
+        color: white;
+    }
+
+    .Horraire-section{
+        grid-area: 3/1/3/3;
+    }
+
+    .Contact-section{
+        grid-area: 4/1/4/3;
+        height: 50px;
+    }
+
+    .Legal-section{
+        grid-area: 6/1/6/3;
+        text-align: center;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    
+    .legallink{
+        display: inline-flex;
+        gap: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+        font-size: 108x;
+        margin: 20px 0;
+    }
+
+    .Legal-section h3{
+        width: 100%;
+        font-size: 18px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .Legal-section a{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .map-section{
+        grid-area: 5/1/5/4;
+    }
+
+    .linkpage a{
+        border-bottom:0px ;
+        width: 100%;
+    }
+
+    .social-icones{
+        margin: 20px 0;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .linkpage a:hover{
+        border-bottom:0px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:990px) {
+        /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */
+
+    .tiret1{
+        width :20%;
+        display: bloc;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        border-bottom : 3px solid #d4adfc;
+        margin: auto;
+     }
+    header {
+        height: 100vh;
+        max-height: 100vh;
+        width: 100vw;
+        max-width: 100%;
+    }
+    
+    .imglogohead{
+        width: 60%;
+      }
+    .head-text{
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        max-width: 80%;
+        text-align: center;;
+        margin: auto;
+        position: relative;
+        transform: translate();
+    }
+    .spétial-txt{
+        width: 95vw;
+        margin-bottom: 20px;
+    }
+    .spétial-img{
+        width: 95vw;
+    }
+    .txt-zone{
+        width: 100%;
+        margin: auto;
+        order: 2;
+        text-align: center;
+    }
+    .txt-zone h1{
+        margin: auto;
+        width: 90%;
+     }
+     #secondp{
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+    }
+    #firstp{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        flex-wrap: wrap;
+     }
+     #socialslinks{
+        margin: auto;
+      }
+    .txt-zone p a{
+        font-size: 20px;
+        text-align: justify;
+     }
+     #socialslinks i{
+        font-size: 20px;
+      }
+    /*!
+    =======================================================================
+            *Services
+    =======================================================================
+    */
+    .services{
+        margin-bottom: 40px;
+        width: 90vw;
+        max-width: 90vw;
+        height: auto;
+        min-height: none;
+        max-height: none;
+    }
+
+    .services-itms{
+        height: auto;
+    }
+
+    .service1 ,.service2 ,.service3{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .logohead{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        filter:drop-shadow( 2px 2px 3px #d4adfc);
+      }
+    /*!
+    =======================================================================
+        *Accompagnement
+    =======================================================================
+    */
+    .stat1, .stat2 ,.stat3 ,.stat4{
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .acc p{
+        width: 80%;
+        font-size: 35px;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:790px) {
+    /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */
+    .navbar h1 a{
+        padding-left: 35px;
+        font-size: 24px;
+    }
+    nav .hamburger-btn {
+        padding-right: 45px;
+        font-size: 34px;
+    }
+    nav .close-btn {
+        right: 35px;
+        top: 11px;
+      }
+    .txt-zone h1{
+        font-size:4.2vw;
+    }
+    #secondp{
+        font-size: 18px;
+    }
+    p#firstp{
+        font-size: 12px;
+        width: 90vw;
+    }
+    /*!
+    =======================================================================
+        *A PROPOS
+    =======================================================================
+    */
+    #zone-services{
+        width: 90vw;
+        max-width: 90vw;
+        min-width: 90vw;
+        margin: 50px auto;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .services-txt{
+        width: 100%;
+        height: auto;
+        min-height: none;
+        max-height: none;
+    }
+    .services-img{
+        width: 100%;
+    }
+   .services-img img{
+        width: 100%;
+        height:100%;
+        margin: auto;
+        object-position: top;
+    }
+    .services-txt h1{
+        width: 90%;
+    }
+
+    .more-text2 {
+        font-size: 18px;
+    }
+
+    .logoimg {
+        left: 10px;
+      }
+
+    /*!
+    =======================================================================
+        *Accompagnement
+    =======================================================================
+    */
+    .acc-itms{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 40px;
+      }
+
+    /*!
+    =======================================================================
+        *Services
+    =======================================================================
+    */
+    .services-img{
+        height: 200px;
+    }
+    .services-itms{
+        height: auto;
+        grid-template-columns: repeat(2 ,1fr);  
+    }
+    .service1 ,.service2 ,.service3{
+        width: 90%;
+        height: 280px;
+        margin: auto;
+    }
+    /*!
+    =======================================================================
+        *Footer
+    =======================================================================
+    */
+}
+
+@media screen and (max-width:560px) {
+    /*!
+    =======================================================================
+        *HEAD
+    =======================================================================
+    */   
+    .navbar h1 a{
+    padding-left: 35px;
+    }
+
+    nav .hamburger-btn {
+        padding-right: 35px;
+    }
+
+    nav .close-btn {
+        right: 35px;
+    }
+
+    .logoimg {
+        left: -5px;
+        padding-right: 20px;
+    }
+
+    .logoimg img{
+        font-size: 20px;
+        height: 20px;
+        width: 20px;
+      }
+
+  .txt-zone{
+        width: 90vw;
+        min-width:90vw;
+        height: 90%;
+        min-height: 90%;
+        max-height: 90%;
+        margin: auto;
+        order: 2;
+        text-align: center;
+    }
+
+    .txt-zone h1{
+        font-size:22px;
+        width: 90%;
+    }
+
+    #firstp{
+        width: 60%;
+      }
+
+    #secondp{
+        font-size: 18px;
+        width: 90%;
+    }
+    .imglogohead{
+        width: 60%;
+    }
+
+    #socialslinks{
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        margin-top: 40px;
+    }
+
+    /*!
+    =======================================================================
+        *A PROPOS
+    =======================================================================
+    */
+    .spétial-txt h1 {
+        font-size:30px;
+        width: 100%;
+    }
+    /*!
+    =======================================================================
+        *Services
+    =======================================================================
+    */
+    
+    .services-itms{
+        height: auto;
+        grid-template-columns: repeat(1 ,1fr);  
+        margin-bottom: 20px;
+    }
+    .service1 ,.service2 ,.service3{
+        width: 95%;
+        height: 200px;
+        margin: auto;
+    }
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
