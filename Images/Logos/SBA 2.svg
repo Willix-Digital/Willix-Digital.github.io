@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #d2ae7e;
+        stroke: #063;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        font-size: 67.96px;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #063;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: CopperplateGothic-Light, 'Copperplate Gothic Light';
+        font-weight: 300;
+      }
+
+      .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-7 {
+        font-size: 26.33px;
+      }
+
+      .cls-8 {
+        letter-spacing: -.04em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" width="612" height="612"/>
+  <g>
+    <g>
+      <path class="cls-6" d="m306,138.81c-61.86,0-112.01,48.09-112.01,107.42s50.15,107.41,112.01,107.41,112-48.09,112-107.41-50.14-107.42-112-107.42Zm-39.82,73.56h-11.32l-.69-31.66c-32.83,26.77-33.87,45.45-33.87,45.45l45.53.17.35,108.42c-48.7-15.69-57.68-66.25-57.68-66.25l10.43-.39c13.85,35.19,34.9,46.78,34.9,46.78v-76.33h-46.16c-2.19-57.16,58.52-77.93,58.52-77.93v51.73Zm64.03,40.59v81.41s-1.01,3.37-4.76,4.92h-39.91s-4.57-.93-4.53-4.92c-.09-58.25-.16-116.49-.24-174.74,4.28-2.24,12.31-5.74,23.02-6.37,12.3-.73,21.76,2.72,26.33,4.73l.09,53.99-18.11,21.62,18.11,19.37Zm46.29,61.88l-9.34-7.75c29.65-27.3,24.83-66.36,24.83-66.36l-36.53.02v80.63c-4.1,8.17-11.67,13.3-11.67,13.3v-173.97c1.04.02,4.17,0,4.17,0,52.29,25.63,56.4,79.06,56.4,79.06.93,57.56-27.87,75.08-27.87,75.08Z"/>
+      <g>
+        <path class="cls-6" d="m318.34,205.14c0,.27-19.83,18.04-23.93,18.82-.91.17-1.76-.5-1.76-1.39v-57.08c0-.78.66-1.41,1.47-1.41h22.63c.81,0,1.47.63,1.47,1.41l.11,39.65Z"/>
+        <path class="cls-6" d="m318.34,267.7l-.11,61.36c0,.74-.63,1.33-1.4,1.33h-22.78c-.78,0-1.4-.6-1.4-1.34v-88.26c0-.9.9-1.54,1.81-1.28,4.15,1.21,23.88,28.02,23.88,28.19Z"/>
+        <path class="cls-6" d="m355.47,226.1v-45.11c26.03,17.14,33.78,45.11,33.78,45.11h-33.78Z"/>
+        <path class="cls-6" d="m389.25,226.1h-33.78v-45.11c26.03,17.14,33.78,45.11,33.78,45.11Z"/>
+      </g>
+    </g>
+    <g>
+      <text class="cls-5" transform="translate(166.8 426.77) scale(1.04 1)"><tspan x="0" y="0">SC</tspan><tspan class="cls-1" x="108.41" y="0">R</tspan><tspan x="160.47" y="0">UB</tspan></text>
+      <text class="cls-7" transform="translate(194.3 461.48) scale(1.04 1)"><tspan class="cls-3" x="0" y="0">B</tspan><tspan x="20.55" y="0">O</tspan><tspan class="cls-8" x="44.53" y="0">D</tspan><tspan x="65.15" y="0" xml:space="preserve">Y  -  A</tspan><tspan class="cls-2" x="133.27" y="0">N</tspan><tspan x="155.33" y="0">GEL</tspan></text>
+    </g>
+  </g>
+</svg>

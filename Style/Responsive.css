@@ -270,103 +270,7 @@
         max-width: 100%;  
         height: 60px;
     }
-    .ma-nav{
-        width: 100vw;
-    }
-    .navlinks {
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #d4adfc;
-        transition: 0.3s ease;
-        align-items: center;
-        top: -20px;
-        bottom: 0;
-        width: 100vw;
-        max-width: 100%;
-        height: 120vh;
-        max-height: 100vh;
-        min-height: 100vh;
-        gap: 40px;
-        right: -2000px;
-        margin: 0;
-        padding: 0;
-        z-index: 9;
-    }
-
-    .navlinks a:hover{
-        color: white;
-        border-bottom: 1px solid transparent;
-    }
-
-    #logo img{
-        height: 120px;
-        width: 120px;
-    }
-
-    .navlinks a{
-        font-size: 20px;
-        color: black;
-    }
-
-    .navbar h1 a{
-        padding-left: 95px;
-    }
-
-    nav .hamburger-btn {
-        display: block;
-        top: 40px;
-        padding-right: 95px;
-    }
-
-    .color{
-        color: #05051d;  
-    }
-
-    .logoimg {
-        left: 50px;
-    }
-
-    .show-menu {
-        right: 0;
-    }
-
-    .navlinks  li a{
-        font-size: 24px;
-        padding-bottom: 6px;
-        border-bottom: 1px solid transparent;
-        transition: all 0.2s ease-in-out;
-        text-align: left;
-    }
-
-    .navlinks  li a:hover{
-        font-size: 24px;
-        border-bottom: 1px solid white;
-    }
-      
-    .navlinks  li a:hover .scrolled{
-        font-size: 24px;
-        border-bottom: 1px solid transparent;
-    }
-
-    nav .close-btn {
-        right: 95px;
-        left: 0px;
-        top: 15px;
-        display: block;
-        position: absolute;
-        text-align: right;
-    }
-      .navbar h1 a{
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    p , .services-txt p, .spétial-txt p{
-        text-align: left;
-    }
-
+   
     /*!
     =======================================================================
         *A PROPOS
@@ -423,6 +327,10 @@
     .more-text ,.more-text2 {
         display: none;
       }
+
+      p , .services-txt p, .spétial-txt p{
+        text-align: left;
+    }
     /*!
     =======================================================================
             *Services
@@ -838,11 +746,6 @@
         height: 280px;
         margin: auto;
     }
-    /*!
-    =======================================================================
-        *Footer
-    =======================================================================
-    */
 }
 
 @media screen and (max-width:560px) {

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 612 612">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 38.26px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #1d1d1b;
+      }
+
+      .cls-3 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-4 {
+        fill: #be1622;
+      }
+
+      .cls-4, .cls-5, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        letter-spacing: -.01em;
+      }
+    </style>
+  </defs>
+  <rect class="cls-5" width="612" height="612"/>
+  <g>
+    <text class="cls-1" transform="translate(115.54 339.41) scale(1.02 1)"><tspan x="0" y="0">OPER</tspan><tspan class="cls-3" x="108.86" y="0">A</tspan><tspan x="133.01" y="0">TION</tspan></text>
+    <text class="cls-1" transform="translate(197.8 374.36) scale(1.02 1)"><tspan x="0" y="0">RE</tspan><tspan class="cls-6" x="53.04" y="0">N</tspan><tspan x="81.6" y="0">AISSANCE</tspan></text>
+    <path class="cls-2" d="m456.24,237.18c-20.8,0-38,15.17-40.82,34.88-6.24-6.8-15.4-11.1-25.61-11.1-18.8,0-34.04,14.56-34.04,32.52s15.24,32.52,34.04,32.52c10.05,0,19.08-4.16,25.32-10.78v24.19h10.18v-34.78c7.55,8.43,18.61,13.76,30.93,13.76,22.77,0,41.23-18.18,41.23-40.6s-18.46-40.6-41.23-40.6Zm-68.14,81.19c-11.65,0-21.1-11.04-21.1-24.65s9.45-24.65,21.1-24.65,21.1,11.04,21.1,24.65-9.45,24.65-21.1,24.65Zm67.84-7.19c-15.82,0-28.64-14.96-28.64-33.41s12.82-33.41,28.64-33.41,28.64,14.96,28.64,33.41-12.82,33.41-28.64,33.41Z"/>
+    <ellipse class="cls-4" cx="388.09" cy="293.73" rx="21.1" ry="24.65"/>
+    <ellipse class="cls-4" cx="455.94" cy="277.78" rx="28.64" ry="33.41"/>
+  </g>
+</svg>
